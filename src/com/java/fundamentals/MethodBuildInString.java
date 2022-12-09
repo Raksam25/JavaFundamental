@@ -8,6 +8,21 @@ package com.java.fundamentals;
 | Date     :  04-Nov-2022
 =============================================================================*/
 
+/*
+  The ASCII characters can be divided as:
+
+Control Characters (0–31 & 127): Control characters are not printable characters. 
+        They are used to send commands to the PC or the printer and are based on telex technology.
+        Today, they are mostly out of use.
+Special Characters(32–47 /58–64 /91–96 /123–126): Special characters include all printable characters that are neither letters nor numbers. 
+        These include punctuation or technical, mathematical characters.
+        ASCII also includes the space (a non-visible but printable character).
+Numbers (30–39): These numbers include the ten Arabic numerals from 0-9.
+Letters(65–90 / 97–122): Letters are divided into two blocks:
+                         Upper Case - A to Z ( 65 to 90)
+                         Lower Case - a to z ( 97 to 122)
+ */
+
 public class MethodBuildInString {
 
 	public static void main(String[] args) {

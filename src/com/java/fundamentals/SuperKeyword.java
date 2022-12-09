@@ -4,7 +4,7 @@ package com.java.fundamentals;
 | Author   :  Rakesh Samant
 | LinkedIn :  rakesh-samant-2505
 | Project  :  Automation Testing
-| Purpose  :  This java program is used to explain comments
+| Purpose  :  This java program is used to explain Super Keyword
 | Date     :  04-Nov-2022
  =============================================================================*/
 
@@ -23,7 +23,7 @@ public class SuperKeyword extends InheritanceAccount {
 
 	String name = "Saving Account Class - Child";
 
-	public void display() {		
+	public void deposit() {		
 		System.out.println("SuperKeyword Class(Child) is executed");
 		System.out.println("The variable value is "+ name);
 		// Implementing the super keyword
@@ -31,13 +31,13 @@ public class SuperKeyword extends InheritanceAccount {
 	}
 
 	public void show() {
-		//display();
-		super.deposit();;
+		//deposit();
+		super.deposit();
 	}
 	
 	public static void main(String[] args) {
 		SuperKeyword  obj = new SuperKeyword();
-		obj.display();		
+		obj.deposit();		
 		obj.show();		
 	}
 

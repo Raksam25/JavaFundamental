@@ -26,6 +26,17 @@ package com.java.fundamentals;
        
    Multiple Inheritance is not supported in Java i.e, calling multiple class using keyword "extends" leads to compile time error.         
 
+  Syntax:
+  
+  class subclass-name extends superclass-name {
+  body of class
+  }
+  
+    OR,
+    
+    class childClass-name extends parentClass-name {
+    body of class
+    }
  */
 
 public class InheritanceAccount {

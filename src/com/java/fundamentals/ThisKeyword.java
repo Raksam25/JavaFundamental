@@ -16,8 +16,10 @@ public class ThisKeyword {
 		
 		// Execute the below constructor with and without this keyword
 		ThisKeyword(String empName, int empID){
-			this.empName = empName;
-			this.empID = empID;
+			empName = empName;
+			empID = empID;
+			//this.empName = empName;
+			//this.empID = empID;
 		}
 		
 		void display() {
