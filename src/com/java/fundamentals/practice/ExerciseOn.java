@@ -1,14 +1,15 @@
 package com.java.fundamentals.practice;
 
 import java.util.Arrays;
-import java.util.Scanner;
+
+import com.java.fundamentals.MethodBuildInMaths;
 
 /*=============================================================================
 | Author   :  Rakesh Samant
 | LinkedIn :  rakesh-samant-2505
 | Project  :  Automation Testing
 | Purpose  :  Find the missing number in an array.
-| Date     :  12-Nov-2022
+| Date     :  12-Dec-2022
  =============================================================================*/
 
 /*
@@ -50,6 +51,8 @@ public class ExerciseOn {
         char[] s2 = "amazingworld".toCharArray();
         descOrder(s2); // function call
         System.out.println(String.valueOf(s2));
+        
+        
 	}
 
 }

@@ -4,8 +4,8 @@ package com.java.fundamentals;
 | Author   :  Rakesh Samant
 | LinkedIn :  rakesh-samant-2505
 | Project  :  Automation Testing
-| Purpose  :  This java program is used to explain comments
-| Date     :  04-Nov-2022
+| Purpose  :  This java program is used to explain This Keyword.
+| Date     :  10-Dec-2022
  =============================================================================*/
 
 public class ThisKeyword {
@@ -20,8 +20,9 @@ public class ThisKeyword {
 			empID = empID;
 			//this.empName = empName;
 			//this.empID = empID;
+			//System.out.println(empName + " - " + empID);
 		}
-		
+			
 		void display() {
 			System.out.println(empName + " - " + empID);
 		}

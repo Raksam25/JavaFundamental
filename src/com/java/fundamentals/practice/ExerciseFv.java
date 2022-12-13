@@ -7,7 +7,7 @@ import java.util.Scanner;
 | LinkedIn :  rakesh-samant-2505
 | Project  :  Automation Testing
 | Purpose  :  Practice Exercise
-| Date     :  12-Nov-2022
+| Date     :  12-Dec-2022
 =============================================================================*/
 
 //   Print different pattern based on user input.

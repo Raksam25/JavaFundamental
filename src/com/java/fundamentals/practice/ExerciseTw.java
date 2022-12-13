@@ -7,7 +7,7 @@ import java.util.Scanner;
 | LinkedIn :  rakesh-samant-2505
 | Project  :  Automation Testing
 | Purpose  :  Practice Exercise on array.
-| Date     :  12-Nov-2022
+| Date     :  12-Dec-2022
  =============================================================================*/
 
 /*
@@ -23,11 +23,13 @@ public class ExerciseTw {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scn = new Scanner(System.in);
-		int n = scn.nextInt();
-		int arr[]= new int[n];
+	    int n = scn.nextInt();
+		//int n = 5;
+		int arr[]= { 100, 20 , 30 , 50 ,60};
 
-		// Capturing Input array
-		for(int i=0; i<n; i++){
+
+		// Capturing Input array  a[0], a[1], a [2], a[3], a[4]
+		for(int i=1; i<=n; i++){
 			arr[i] = scn.nextInt();
 		}
 		

@@ -5,7 +5,7 @@ package com.java.fundamentals;
 | LinkedIn :  rakesh-samant-2505
 | Project  :  Automation Testing
 | Purpose  :  This java program is used to explain Single level and Hierarchical Inheritance
-| Date     :  04-Nov-2022
+| Date     :  04-Dec-2022
 =============================================================================*/
 
 public class InheritanceCurrentAccount extends InheritanceAccount {
@@ -29,7 +29,6 @@ public class InheritanceCurrentAccount extends InheritanceAccount {
 		personThree.deposit();
 		personThree.withdrawal();
 		personThree.getRateOfInterest(10.5f);
-		personThree.withdr();
 		personThree.with();
 
 	}

@@ -4,8 +4,8 @@ package com.java.fundamentals;
 | Author   :  Rakesh Samant
 | LinkedIn :  rakesh-samant-2505
 | Project  :  Automation Testing
-| Purpose  :  This java program is used to explain Method Overloading
-| Date     :  04-Nov-2022
+| Purpose  :  This java program is used to explain recursion
+| Date     :  04-Dec-2022
 =============================================================================*/
 
 /*
@@ -37,18 +37,18 @@ public class Recursion {
 	int factorial(int n) {
 		int result;
 		if (n==1) return 1;
-		result = factorial(n-1) *n ;
+		result = factorial(n-1) * n ; //  factorial(4) * 5 => 1*2*3 *4*5;
 		return result;
 	}
 	
 	/*
-	 // Iterative equivalence of recursive function method
+	 // Iterative equivalence of recursive factorial function method
 	  int factorial (int n) {
 	  int result;
 	  
 	  result = 1;
 	  for (int i =1; i<=n; i++){
-	  result *=i;
+	  result *=i; // result = result * i;
 	  }
 	  return result;  
 	  }
@@ -60,7 +60,7 @@ public class Recursion {
 		int resultOn = sum(15);
 	    System.out.println("Sum of the range of number is : " + resultOn);
 	    
-	    int resultTw = sum(5, 10);
+	    int resultTw = sum(5, 15);
 	    System.out.println("Sum of the range of number is : " + resultTw);
 	    
 	    Recursion rec = new Recursion();

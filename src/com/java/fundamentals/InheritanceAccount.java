@@ -6,7 +6,7 @@ package com.java.fundamentals;
 | LinkedIn :  rakesh-samant-2505
 | Project  :  Automation Testing
 | Purpose  :  This java program is used to explain Inheritance
-| Date     :  04-Nov-2022
+| Date     :  04-Dec-2022
 =============================================================================*/
 
 /*
@@ -53,7 +53,7 @@ public class InheritanceAccount {
 		System.out.println("Account Class is executed");
 	}
 	
-	public void withdr() {
+	public void withdr(int w, int h) {
 		System.out.println("Amount is withdrawn");
 		System.out.println("Account Class is executed");
 	}

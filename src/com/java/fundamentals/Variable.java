@@ -6,7 +6,7 @@ package com.java.fundamentals;
 | LinkedIn :  rakesh-samant-2505
 | Project  :  Automation Testing
 | Purpose  :  This java program is used to explain Variable
-| Date     :  04-Nov-2022
+| Date     :  04-Dec-2022
  =============================================================================*/
  
  // Variable: is a  name given to  a memory  location.

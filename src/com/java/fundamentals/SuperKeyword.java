@@ -5,7 +5,7 @@ package com.java.fundamentals;
 | LinkedIn :  rakesh-samant-2505
 | Project  :  Automation Testing
 | Purpose  :  This java program is used to explain Super Keyword
-| Date     :  04-Nov-2022
+| Date     :  10-Dec-2022
  =============================================================================*/
 
 /*
@@ -33,12 +33,14 @@ public class SuperKeyword extends InheritanceAccount {
 	public void show() {
 		//deposit();
 		super.deposit();
+		
 	}
 	
 	public static void main(String[] args) {
 		SuperKeyword  obj = new SuperKeyword();
 		obj.deposit();		
 		obj.show();		
+		
 	}
 
 }

@@ -1,15 +1,15 @@
 package com.java.fundamentals;
 
-
-
 /*=============================================================================
 | Author   :  Rakesh Samant
 | LinkedIn :  rakesh-samant-2505
 | Project  :  Automation Testing
 | Purpose  :  This java program is used to explain Method Overriding
-| Date     :  04-Nov-2022
+| Date     :  10-Dec-2022
 =============================================================================*/
+
 // Child Class - Method Overriding 
+
 public class MethodOverridingHDFC  extends MethodOverridingRBI {	
 
 	public float getHomeLoan(float interest) {

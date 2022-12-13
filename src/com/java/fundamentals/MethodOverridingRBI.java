@@ -6,7 +6,7 @@ package com.java.fundamentals;
 | LinkedIn :  rakesh-samant-2505
 | Project  :  Automation Testing
 | Purpose  :  This java program is used to explain Method Overriding
-| Date     :  04-Nov-2022
+| Date     :  10-Dec-2022
 =============================================================================*/
 /*
   -If subclass (child class) has the same method as declared in the parent class, it  is known as method overriding.
